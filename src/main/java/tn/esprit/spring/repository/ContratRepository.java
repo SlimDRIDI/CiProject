@@ -6,5 +6,6 @@ import tn.esprit.spring.entities.Contrat;
 
 public interface ContratRepository extends JpaRepository<Contrat, Integer>{
 	public String giit();
+	public String tit();
 
 }
